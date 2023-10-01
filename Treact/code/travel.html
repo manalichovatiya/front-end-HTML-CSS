@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treact</title>
+    <link rel="stylesheet" type="text/css" href="./css/animate.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/swiper-bundle.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/all.min.css"/> 
+    <link rel="stylesheet" type="text/css" href="./css/font.css"/> 
+    <link rel="stylesheet" type="text/css" href="./css/travel.css"/> 
+</head>
+<body>
+<div class="main mt-0 wow slideInLeft">
+  <div class="container">
+   <div class="row">
+    <div class="col-lg-7 col-md-12 col-sm-12">
+      <header>
+          <div class="conatainer container-xxl">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              <div class="container-fluid my-4">
+                <div class="navbar-brand d-flex align-items-center">
+                  <a href="#"><img src="img/logo.2c489fc453a1783cbadacf914efa3df6.svg"/>            
+                    <span class="d-inline">Treact</span></a>        
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex" id="navbarNavDropdown">
+                  <ul class="navbar-nav ms-5 align-items-center">         
+                    <li class="nav-item me-2">
+                      <a class="nav-link ms-3" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item me-2">
+                      <a class="nav-link" href="travel.html">Travel</a>
+                    </li>
+                    <li class="nav-item me-2">
+                      <a class="nav-link" href="restaurant.html">Restaurant</a>
+                    </li>
+                    <li class="nav-item me-2">
+                      <a class="nav-link" href="agency.html">Agency</a>
+                    </li>
+                    <li class="nav-item me-2">
+                      <a class="nav-link" href="service.html">Services</a>
+                    </li>                      
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </header>
+      <div class="find">
+        <h1>Find Perfect Hotels <span>anywhere you go.</span></h1>
+        <p class="mt-5">We've been in the hotels business across the world for 5 years now. We assure you that you will always enjoy your stay with us.</p>
+        <div class="btn btn-main px-5 py-3 mt-3">Sign Up</div><div class="btn btn-second mx-3 px-5 py-3 mt-3">Search Hotels</div>
+      </div>       
+  </div>
+  <div class="col-lg-5 col-md-12 col-sm-12">
+    <img src="img/photo-tra.avif" alt="">
+  </div>
+   </div>
+  </div>
+</div>
+
+<section class="Amazing wow slideInRight">
+  <div class="container">
+   <div class="row m-auto mt-5">
+     <div class="col-lg-4 col-md-12 col-sm-12">
+     <div class="imge">
+       <img src="img/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg"/>
+     </div>
+     <span class="title">Secure</span>
+     <p class="description">We strictly only deal with vendors </p><p class="description mt-0" >that provide top notch security.</p>
+     <span class="link d-flex justify-content-center">
+       <span>Learn More</span>
+       <i class="fa-solid fa-arrow-right"></i>      
+     </span>
+     </div>
+     <div class="col-lg-4 col-md-12 col-sm-12">
+       <div class="imge">
+         <img src="img/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg"/>
+       </div>
+       <span class="title">24/7 Support</span>
+       <p class="description">Lorem ipsum donor amet siti ceali placeholder text</p>
+       <span class="link d-flex justify-content-center">
+         <span>Learn More</span>
+         <i class="fa-solid fa-arrow-right"></i>      
+       </span>
+     </div>
+     <div class="col-lg-4 col-md-12 col-sm-12">
+       <div class="imge">
+         <img src="img/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg"/>
+       </div>
+       <span class="title">Customizable</span>
+       <p class="description">Lorem ipsum donor amet siti ceali placeholder text</p>
+       <span class="link d-flex justify-content-center">
+         <span>Learn More</span>
+         <i class="fa-solid fa-arrow-right"></i>      
+       </span>
+     </div>
+   </div>
+  </div>
+</section>
+
+<section class="popular wow slideInLeft">
+ <div class="d-flex d-inline-block container">
+  <h2 class="heading text-start">Popular Hotels</h2>
+  <div class="icon">
+    <div class="btn left btn-main me-4"><i class="fa-solid fa-angle-left"></i></div>
+    <div class="btn right btn-main"><i class="fa-solid fa-angle-right"></i></div>
+  </div>
+ </div>
+<div #swiperRef="" class="swiper mySwiper container">
+  <div class="swiper-wrapper">  
+    <div class="swiper-slide">
+      <div class="card travel_hoelgallery_card">
+           <div class="imge">
+            <img src="img/ph.avif" alt="hotelresidency" />
+          </div>
+           <div class="travel_hoelgallery_card1_sec2 mt-4 mb-2 d-flex justify-content-around">
+                   <h2 class="travel_hotel_head1">Hudak Homes</h2>
+                   <div class="travel_hotel_card_head_right">
+                    <i class="fa-solid fa-star"></i>
+                    <h2 class="travel_hotel_head2">4.5</h2>
+                  </div>
+           </div>
+           <div class="travel_hoelgallery_card1_sec3">
+               <div class="row">
+                   <div class="col-6 d-flex justify-content-around">
+                    <div class="travel_hotel_iouter ms-2">
+                      <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <p class="travel_hotel_sec3p">Arizona, RAK</p>
+                  </div>
+                   <div class="col-6 d-flex justify-content-around">
+                    <div class="travel_hotel_iouter">
+                      <i class="fa-solid fa-dollar-sign"></i>
+                    </div>
+                    <p class="travel_hotel_sec3p">USD 99/Day</p>
+                  </div>
+               </div>
+           </div>
+           <div class="travel_hoelgallery_card1_sec4">
+            <p class="mb-3 travel_hotel_sec4p">Lorem ipsum dolor sit amet, consectur dolori adipiscing elit, sed do eiusmod tempor nova incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+           <div class="travel_hoelgallery_card1_sec5">
+            <div class="row">
+              <div class="btn">BOOK NOW</div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="card travel_hoelgallery_card">
+           <div class="imge">
+            <img src="img/ph-1.avif" alt="hotelresidency" />
+          </div>
+           <div class="travel_hoelgallery_card1_sec2 mt-4 mb-2 d-flex justify-content-around">
+                   <h2 class="travel_hotel_head1">Wyatt residency</h2>
+                   <div class="travel_hotel_card_head_right">
+                    <i class="fa-solid fa-star"></i>
+                    <h2 class="travel_hotel_head2">4.8</h2>
+                  </div>
+           </div>
+           <div class="travel_hoelgallery_card1_sec3">
+               <div class="row">
+                   <div class="col-6 d-flex justify-content-around">
+                    <div class="travel_hotel_iouter ms-2">
+                      <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <p class="travel_hotel_sec3p">Rome, Italy</p>
+                  </div>
+                   <div class="col-6 d-flex justify-content-around">
+                    <div class="travel_hotel_iouter">
+                      <i class="fa-solid fa-dollar-sign"></i>
+                    </div>
+                    <p class="travel_hotel_sec3p">USD 39/Day</p>
+                  </div>
+               </div>
+           </div>
+           <div class="travel_hoelgallery_card1_sec4">
+            <p class="mb-3 travel_hotel_sec4p">Lorem ipsum dolor sit amet, consectur dolori adipiscing elit, sed do eiusmod tempor nova incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+           <div class="travel_hoelgallery_card1_sec5">
+            <div class="row">
+              <div class="btn">BOOK NOW</div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="card travel_hoelgallery_card">
+           <div class="imge">
+            <img src="img/ph-2.avif" alt="hotelresidency" />
+          </div>
+           <div class="travel_hoelgallery_card1_sec2 mt-4 mb-2 d-flex justify-content-around">
+                   <h2 class="travel_hotel_head1">Soho Paradise</h2>
+                   <div class="travel_hotel_card_head_right">
+                    <i class="fa-solid fa-star"></i>
+                    <h2 class="travel_hotel_head2">4.9</h2>
+                  </div>
+           </div>
+           <div class="travel_hoelgallery_card1_sec3">
+               <div class="row">
+                   <div class="col-6 d-flex justify-content-around">
+                    <div class="travel_hotel_iouter ms-2">
+                      <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <p class="travel_hotel_sec3p">Ibiza, Spain</p>
+                  </div>
+                   <div class="col-6 d-flex justify-content-around">
+                    <div class="travel_hotel_iouter">
+                      <i class="fa-solid fa-dollar-sign"></i>
+                    </div>
+                    <p class="travel_hotel_sec3p">USD 50/Day</p>
+                  </div>
+               </div>
+           </div>
+           <div class="travel_hoelgallery_card1_sec4">
+            <p class="mb-3 travel_hotel_sec4p">Lorem ipsum dolor sit amet, consectur dolori adipiscing elit, sed do eiusmod tempor nova incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+           <div class="travel_hoelgallery_card1_sec5">
+            <div class="row">
+              <div class="btn">BOOK NOW</div>
+            </div>
+          </div>
+        </div>
+    </div> 
+    <div class="swiper-slide">
+      <div class="card travel_hoelgallery_card">
+           <div class="imge">
+            <img src="img/ph-3.avif" alt="hotelresidency" />
+          </div>
+           <div class="travel_hoelgallery_card1_sec2 mt-4 mb-2 d-flex justify-content-around">
+                   <h2 class="travel_hotel_head1">Hotel Baja</h2>
+                   <div class="travel_hotel_card_head_right">
+                    <i class="fa-solid fa-star"></i>
+                    <h2 class="travel_hotel_head2">5.0</h2>
+                  </div>
+           </div>
+           <div class="travel_hoelgallery_card1_sec3">
+               <div class="row">
+                   <div class="col-6 d-flex justify-content-around">
+                    <div class="travel_hotel_iouter ms-2">
+                      <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <p class="travel_hotel_sec3p">Palo Alto, CA</p>
+                  </div>
+                   <div class="col-6 d-flex justify-content-around">
+                    <div class="travel_hotel_iouter">
+                      <i class="fa-solid fa-dollar-sign"></i>
+                    </div>
+                    <p class="travel_hotel_sec3p">USD 19/Day</p>
+                  </div>
+               </div>
+           </div>
+           <div class="travel_hoelgallery_card1_sec4">
+            <p class="mb-3 travel_hotel_sec4p">Lorem ipsum dolor sit amet, consectur dolori adipiscing elit, sed do eiusmod tempor nova incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+           <div class="travel_hoelgallery_card1_sec5">
+            <div class="row">
+              <div class="btn">BOOK NOW</div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>   
+</div>
+</section>
+
+<section class="tour wow slideInRight">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-md-6 col-sm-12">
+          <h2>Trending Tours</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.</p>
+          <span class="link d-flex ">
+           <a href="#"> View All Tours
+            <i class="fa-solid fa-arrow-right ms-3"></i> 
+          </a>     
+          </span>  
+        </div>
+        <div class="col-lg-7 col-md-6 col-sm-12">
+          <div class="row">
+            <div class="card" style="width: 20rem;">
+              <img src="img/t-1.avif" class="card-img-top" alt="t-1">
+              <div class="card-body">
+                <div class="d-flex d-inline-block">
+                  <span class="card-title">Beachfront</span>
+                  <span class="card-title-2">$99</span>
+                  <p class="card-title-p"> per day</p>
+                </div>
+                <h5>A Trip to the Bahamas and the Carribean Ocean</h5>
+                <div class="d-flex d-inline-block line">
+                  <div class="svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trending-up me-1"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>Trending
+                    </div>
+                    <div class="svg">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock "><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 7 Days Tour
+                    </div>
+                    <div class="svg"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Africa
+                    </div>
+                  </div>
+                <div class="book">
+                  <a href="#" class="btn btn-main w-100 mt-4 pt-2 pb-2">Book Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="card card-2" style="width: 20rem;">
+              <img src="img/t-2.avif" class="card-img-top" alt="t-1">
+              <div class="card-body">
+                <div class="d-flex d-inline-block">
+                  <span class="card-title">Cruise</span>
+                  <span class="card-title-2">$169</span>
+                  <p class="card-title-p"> per day</p>
+                </div>
+                <h5>Cruise to the Mariana Trench and the Phillipines</h5>
+                <div class="d-flex d-inline-block line">
+                  <div class="svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trending-up me-1"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>Trending
+                    </div>
+                    <div class="svg">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock "><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 15 Days Tour
+                    </div>
+                    <div class="svg"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Australia
+                    </div>
+                  </div>
+                <div class="book">
+                  <a href="#" class="btn btn-main w-100 mt-4 pt-2 pb-2">Book Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="service wow slideInLeft">
+     <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-md-12 col-sm-12">
+          <img src="img/service.avif" alt="service">
+        </div>
+        <div class="col-lg-7 col-md-12 col-sm-12">
+          <h2 class="mt-5">We have the best service.</h2>
+          <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <div class="row mt-5">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <h4 class="nom">192</h4>
+              <h4 class="word">Countries</h4>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <h4 class="nom">479</h4>
+              <h4 class="word">Hotels</h4>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <h4 class="nom">2093</h4>
+              <h4 class="word">Rooms</h4>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <h4 class="nom">10347</h4>
+              <h4 class="word">Workers</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+</section>
+
+<section class="Posts wow slideInRight">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 col-md-6 col-sm-12">
+        <h2 class="mb-5">Popular Posts</h2>
+        <div class="row">
+          <div class="card" style="width:50%;">
+            <div class="imge">
+              <img src="img/post-1.avif" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Tips on how to travel safely in foreign countries</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consecteturious adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua now ele.</p>
+              <div class="row mt-4">
+                <div class="post-img">
+                  <img src="img/photo-1494790108377-be9c29b29330.avif" alt="">
+                </div>
+                <div class="post-info">
+                  <h6>Charlotte Delos</h6>
+                  <p>Travel Advocate</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="width:50%;">
+            <img src="img/post-2.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Enjoying the beach life while on a vacation</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consecteturious adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua now ele.</p>
+              <div class="row mt-4">
+                <div class="post-img">
+                  <img src="img/photo-1531427186611-ecfd6d936c79.avif" alt="">
+                </div>
+                <div class="post-info">
+                  <h6>Adam Cuppy</h6>
+                  <p>Vlogger</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      <div class="col-lg-5 col-md-6 col-sm-12 recent">
+        <h2 class="ms-5">Recent Posts</h2>
+        <div class="card mb-3 mt-5" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-8">
+              <div class="card-body recent-info">
+                <h5>Getting the most out of your vacation</h5>
+                <p>Aaron Patterson</p>
+              </div>
+            </div>
+              <div class="col-md-4 recent-img">
+                <img src="img/re-1.avif" class="img-fluid rounded-start" alt="...">
+              </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-8">
+              <div class="card-body recent-info">
+                <h5>Choosing the perfect Safaris in Africa</h5>
+                <p>Sam Phipphen</p>
+              </div>
+            </div>
+              <div class="col-md-4 recent-img">
+                <img src="img/re-2.jpeg" class="img-fluid rounded-start" alt="...">
+              </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-8">
+              <div class="card-body recent-info">
+                <h5>Hiking during the monsoon in Asia</h5>
+                <p>Tony Hawk</p>
+              </div>
+            </div>
+              <div class="col-md-4 recent-img">
+                <img src="img/re-3.jpeg" class="img-fluid rounded-start" alt="...">
+              </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-8">
+              <div class="card-body recent-info">
+                <h5>Must carry items while travelling to Thailand</h5>
+                <p>Himali Turn</p>
+              </div>
+            </div>
+              <div class="col-md-4 recent-img">
+                <img src="img/re-4.avif" class="img-fluid rounded-start" alt="...">
+              </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-8">
+              <div class="card-body recent-info">
+                <h5>An extremely funny trip to the Swiss Alps</h5>
+                <p>Naomi Watts</p>
+              </div>
+            </div>
+              <div class="col-md-4 recent-img">
+                <img src="img/re-5.avif" class="img-fluid rounded-start" alt="...">
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<section class="Testimonials wow slideInLeft">
+  <div class="container-lg position-relative here">
+    <h2 class="ms-5 position-absolute">Testimonials</h2>
+    <p class=" ms-5 position-absolute">Here are what some of our amazing customers are saying about our hotels & tours. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </div>
+    <div class="swiper second container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide row ms-5">
+          <div class="col-lg-7 imgge">
+            <p class="ms-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</hp>
+            <div class="row mt-4">
+              <div class="post-img">
+                <img src="img/photo-1494790108377-be9c29b29330.avif" alt=""/>
+              </div>
+              <div class="post-info">
+                <h6>Charlotte Hale</h6>
+                <p>CEO, Delos Inc.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <img src="img/test-1.avif" alt=""/>  
+            <div class="slide position-relative">
+              <div class="btn next btn-main me-4 rounded-circle position-absolute"><i class="fa-solid fa-angle-left"></i></div>
+              <div class="btn pre btn-main rounded-circle position-absolute"><i class="fa-solid fa-angle-right"></i></div>
+            </div> 
+        </div>
+        </div>
+        <div class="swiper-slide row ms-5">
+          <div class="col-lg-7 imgge">
+            <p class="ms-3">Sinor Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+            <div class="row mt-4">
+              <div class="post-img">
+                <img src="img/photo-1531427186611-ecfd6d936c79.avif" alt="">
+              </div>
+              <div class="post-info">
+                <h6>Adam Cuppy</h6>
+                <p>Founder, EventsNYC</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <img src="img/test-2.avif" alt=""/>
+              <div class="slide position-relative">
+                <div class="btn next btn-main me-4 rounded-circle position-absolute"><i class="fa-solid fa-angle-left"></i></div>
+                <div class="btn pre btn-main rounded-circle position-absolute"><i class="fa-solid fa-angle-right"></i></div>
+              </div>           
+          </div>
+        </div>
+      </div> 
+    </div>
+</section>
+
+<section class="que wow slideInRight">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-md-6 col-sm-12">
+          <img src="img/l of t.avif" alt="">
+        </div>
+        <div class="col-lg-7 col-md-6 col-sm-12">
+          <h2 class="ms-5 mt-3">Questions</h2>
+          <p class="mt-4 ms-5">Here are some frequently asked questions about our hotels from our loving customers. Should you have any other questions, feel free to reach out via the contact form below.</p>
+          <div class="faqs mt-5">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item position-relative">
+               <h2 class="accordion-header" id="headingOne">
+               <button class="accordion-button"  data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fine"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+               <span>Is lunch provided free of cost ?</span> 
+               </button>
+             </h2>
+               <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                <span>Yes, it is, if you have a membership with us. Otherwise it is charged as per the menu. Some limits do apply as to how much items can be included in your lunch. This limit is enough for any one person and merely exists to discourage abusal of the system.</span>
+                </div>
+               </div>
+              </div>      
+              <div class="accordion-item my-3">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fine"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                   <span>Do you have 2 Bedroom suites ?</span>
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                   <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item my-3">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fine"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                    <span>Are Wi-Fi costs included in the price ?</span>
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item my-3">
+                <h2 class="accordion-header" id="headingfour">
+                  <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fine"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                   <span>Where can I reach you for support ?</span>
+                  </button>
+                </h2>
+                <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                  <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                  </div>
+                </div>
+              </div>              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+<section class="newsletter wow slideInLeft">
+  <div class="news">
+      <div class="nevi d-flex justify-content-center align-items-center">
+          <i class="fa-solid fa-envelope-open-text mx-4"></i>
+          <div class="sidecommonhead2">
+            <span class="news-span ">Newsletter</span>
+            <h6 class="news-span2">Subscribe now to get our latest blog posts.</h6>
+          </div>
+          <div class="nevi-2 mx-5">
+            <input class="border-0" type="email" placeholder="Your Email Address" />
+            <div class="btn bg-success">Subscribe Now</div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<footer class="d-flex justify-content-center align-content-center wow slideInRight">
+        <div class="container">
+            <div class="heading d-flex d-inline-block justify-content-center mt-5">
+              <img src="img/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="">
+              <h3 class="text-light">Treact</h3>
+            </div>
+            <ul class="d-flex d-inline-block justify-content-center mt-5 me-5">
+              <li class="ms-4"><a href="#" class="text-light">Home</a></li>
+              <li class="ms-4"><a href="#" class="text-light">About</a></li>
+              <li class="ms-4"><a href="#" class="text-light">Contact Us</a></li>
+              <li class="ms-4"><a href="#" class="text-light">Blog</a></li>
+              <li class="ms-4"><a href="#" class="text-light">Reviews</a></li>
+            </ul>
+            <div class="d-flex justify-content-center mt-5">
+              <a href="https://facebook.com" class="ms-4"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://twitter.com" class="ms-4"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://youtube.com" class="ms-4"><i class="fa-brands fa-youtube"></i></a>
+             </div>
+            <div class="d-flex justify-content-center mt-5">
+              <p>© Copyright 2020, Treact Inc. All Rights Reserved.</p>
+            </div>
+
+        </div>
+</footer>
+
+    <script src="./js/wow.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        centeredSlides: true,
+        spaceBetween: 30,
+        loop: true,        
+        pagination: {
+          el: ".swiper-pagination",
+          type: "fraction",
+        },
+        navigation: {
+          nextEl: ".right",
+          prevEl: ".left"
+        },
+      }); 
+    </script>
+     <script>
+      var swiper = new Swiper(".second", {
+        cssMode: true,
+        loop: true,
+        navigation: {
+          nextEl: ".pre",
+          prevEl: ".next",
+        },       
+        mousewheel: true,
+        keyboard: true,
+      });
+    </script>
+  <script>
+    new WOW().init();
+  </script>
+       
+      
+
+
+    
+</body>
+</html> 
