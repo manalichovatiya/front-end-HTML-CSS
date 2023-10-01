@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(46, 46, 45);
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.main{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 200px;
+    margin: 0 auto;
+}
+.main .box{
+    background-image: url("../pic/red-texture-wallpaper-10-700x467.jpg");
+    background-size: 30px;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    position: absolute;
+    top:55;
+    left:140;  
+    clip-path: circle(50% at 0 50%);
+    animation-direction:inherit;  
+    transform-origin:10%; 
+    flex-wrap: wrap;
+    /* animation: rot 5s 0.3s linear infinite ; */
+}
+@keyframes rot {
+    0%{
+        transform:rotate(0deg);
+    }
+    50%{
+        transform:rotate(180deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+.a{
+    display: flex;
+    height: 55.5px;
+    width: 55.5px;
+    background-color: rgb(255, 255, 255);
+    clip-path: circle(50% at 0 100%);
+    position: absolute;
+    left: 140;
+    top: 40;
+    /* animation: aa 3s linear infinite alternate; */
+}
+.aa{
+    display: flex;
+    height: 55.5px;
+    width: 55.5px;
+    background-color: rgb(188, 182, 182);
+    position: absolute;
+    clip-path: circle(50% at 0 0);
+    left: 140;
+    top: 95;
+    /* animation: aa 3s linear infinite alternate; */
+}
+@keyframes aa {
+    0%{
+       transform: rotate(360deg);
+    }
+    
+}
+.mindu{
+    display: block;
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    background-size: cover;
+    border-radius: 100%;
+    position: absolute;
+    top: 79;
+    left: 141;
+    /* animation: mindu 2s linear infinite alternate; */
+}
+@keyframes mindu {
+    0%{
+        transform: translate(-20px);
+    }
+}
+
+.main .yel{
+    height: 55.5px;
+    width: 55.5px;
+    background-color: rgb(244, 220, 112);
+    clip-path: circle(50% at 100% 100%);
+    position: absolute;
+    top: 40;
+    left: 84.5;
+}
+.main .nel{
+    height: 35px;
+    width: 35px;
+    background-color: rgb(224, 159, 17);
+    clip-path: circle(50% at 100% 0);
+    position: absolute;
+    top: 95;
+    left: 104.7;
+}
