@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;   
+}
+body{
+    font-family:" overpass "; 
+    background-color:#fff;    
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+.col-4{
+    width: 33.33%;
+}
+.row{
+    display:flex ;
+    flex-wrap: wrap;
+}
+.main{
+    text-align: center;
+}
+.main h1{
+    text-transform: uppercase;
+    font-size: 68px;
+    color: rgba(607, 60, 8, 0.5);
+}
+.main p{
+    text-transform: capitalize;
+    font-size: 15px;
+    color: rgba(6, 60, 8, 0.5);
+    
+}
+
+
+.lucy{
+    margin-top: 40px;
+    margin-bottom: 85px;
+}
+.lucy .row{
+    flex-wrap: nowrap;
+}
+.lucy .col-4{
+    height: 460px;
+    background-color:white;
+    margin: 12px;     
+    transition: all 0.5s;
+}
+.lucy-in .shadow{
+    box-shadow: 0 10px 30px rgb(0 0 0 / 7%);
+}
+.lucy-in{
+    width: auto;
+    height: 350px; 
+    position: relative;
+}
+
+.lucy-in img{
+    width: 100%;
+    transition: all 0.5s;   
+    display: block; 
+}
+.lucy-in h3{
+    color: blue;
+    text-transform: capitalize;
+    margin-top: 10px;     
+    font-size: 15px;
+    font-weight: 570;
+    padding-bottom: 25px;       
+}
+.lucy-in h2{
+    color: black;
+    max-width: 560px;
+    font-weight: 700;
+    font-size: 23px;         
+}
+.lucy-in .john{
+    text-align: center;
+    padding-top: 25px;  
+    transition: all 0.5s; 
+}

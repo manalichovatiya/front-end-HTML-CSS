@@ -1,0 +1,480 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;   
+}
+body{
+    font-family:" overpass "; 
+    background-color:#fff;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+.container{
+     max-width: 1150px;
+     padding: 0 15px;
+     margin: 0 auto;
+}
+.row{
+    display:flex ;
+    flex-wrap: wrap;
+}
+:root{    
+    --mainColor: #0000ff;
+    --optionalColor: #fa7070;
+    --whiteColor: #ffffff;
+    --blackColor: #212529;
+    --paraColor: #737b9a;
+    --grayColor: #f0f3f5;
+    --headercolor:#fefeff;
+}
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+/*=========================================*/
+
+header{
+    background-color: var(--headercolor);
+    padding: 20px 0 ;
+    position: fixed;
+    top: 0;
+    display: inline-block;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 28px 0 rgb(0 0 0 / 6%);
+}
+header nav ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+header .row {
+    justify-content: space-between;
+    align-items: center;
+}
+header li.dropdown{
+    position: relative;
+}
+header li.dropdown:hover .submenu{
+    opacity: 1;
+    visibility: visible;
+    top: 40px;
+}
+header nav ul.submenu{
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    left: 15%;
+    width: max-content;
+    background-color: var(--whiteColor);
+    box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 10%);
+    padding: 20px 10px;
+    border-top: 3px solid var(--mainColor);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+header nav ul.submenu li{
+    padding: 10px 0;
+}
+header nav ul li a {
+    padding: 0 15px;
+    font-size: 16px;
+    color: var(--paraColor);
+    font-weight: 500;
+}
+header nav ul li a:hover{
+    color: var(--mainColor);
+}
+header nav ul li a i.fa-chevron-down{
+    font-size: 10px;
+}
+header nav ul li a i.fa-magnifying-glass,
+header nav ul li a i.fa-bars{
+    font-size: 20px;
+}
+header li.dropdown .new{
+    background-color: #ff0000;
+    color: var(--whiteColor);
+    border-radius: 5px;
+    margin-left: 1px;
+    top: -2px;
+    font-weight: 600;
+    font-size: 14px;
+    height: 20px;
+}
+/*=========================================*/
+.Contact{
+    margin-top: 200px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 200px;
+}
+.Contact h1{
+    font-size: 40px;
+    padding-bottom: 10px;
+    font-weight: 700;   
+}
+.Contact h1::before {
+    width: 30px;
+    height: 2px;
+    background-color:var(--optionalColor);
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+}
+.Contact ul{
+    list-style: none;
+    position: absolute;
+    display: flex;
+    top: 80px;   
+    left: 540px;
+}
+.Contact ul .home{
+    color: var(--paraColor);   
+    transition: all 0.5s;
+}
+.Contact ul .home:hover{
+    color: var(--optionalColor);
+}
+.Contact ul li i{
+    color: var(--paraColor);
+    font-size: 12px;
+    margin-left: 10px;
+}
+.Contact ul .ab{
+    color: var(--mainColor);
+    margin-left: 10px;
+}
+/*=========================================*/
+.detail{
+   background-color: var(--whiteColor);   
+}
+.detail .col-4{
+   padding: 0 12px;
+   margin-bottom: 110px;
+}
+.detail .Here:hover{  
+   margin-top: -10px;
+   background-color: var(--whiteColor);   
+}
+.detail .col-4:hover .Here i{ 
+  background-color:var(--mainColor);
+  color: var(--whiteColor);  
+}
+.detail .col-4 .Here{
+   text-align: center;
+   padding: 30px;
+   background-color: var(--whiteColor);
+   transition: all .5s ease;
+   border: none;
+   border-radius: 5px;
+   box-shadow: 0 3px 40px 0 rgb(0 0 0 / 8%);
+}
+.detail .col-4 .Here i{
+  font-size: 30px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: rgb(0 0 0 / 8%);
+  color: var(--mainColor);
+  transition: all .5s ease;
+}
+.detail .col-4 .Here h3{
+   margin-bottom: 12px;
+   font-size: 24px;
+   font-weight: 700;
+   color: var(--blackColor);
+}
+.detail .col-4 .Here p{
+   font-size: 16px; 
+   line-height: 30px; 
+   font-weight: 400;
+}
+.detail .col-4 .Here p a{
+   color: var(--paraColor);
+}
+.detail .col-4 .Here p a:hover{
+   color: var(--mainColor);
+}
+.detail .title{
+    color:var(--mainColor);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.detail .heading{
+    color: var(--blackColor);    
+    font-weight: 700;
+    font-size: 40px;
+    max-width: 560px;
+    text-align: center;
+    margin-left: 280px;    
+}
+.detail .paragraph{
+   color: var(--paraColor);
+   font-size: 16px;
+   padding-top: 16px;
+   max-width: 600px;
+   margin: 0 auto;
+   text-align: center;
+   line-height: 30px;
+   margin-bottom: 65px;
+}
+.detail .row{
+  flex-wrap: nowrap;  
+}
+.detail .form-detail{
+   padding-left: 30px;
+}
+.detail .form-detail .row{
+  flex-wrap: wrap;  
+}
+.detail .form-detail .col-6{
+   padding: 0px 7px 14px;
+}
+.detail .form-detail input{
+   width: 100%;   
+   padding: 6px 12px 6px 13px;
+   background-color: var(--whiteColor);
+   border: none;
+   box-shadow: 0 5px 28.5px 1.5px rgb(149 152 200 / 20%);
+   height: 55px;
+   font-size: 16px;
+   color: var(--paraColor);
+   font-family: inherit;
+   font-weight: 400;   
+}
+input:focus,
+textarea:focus{
+    outline: none;
+}
+.detail .form-detail textarea{
+   width: 100%;
+   border: none;
+   background-color: var(--whiteColor);
+   box-shadow: 0 5px 28.5px 1.5px rgb(149 152 200 / 20%);
+   height: 55px;
+   font-size: 16px;
+   color: var(--mainColor);
+   font-family: inherit;
+   font-weight: 400;
+   padding: 20px 12px 6px 13px;
+   height: 130px;
+}
+.detail .form-detail .area{
+   padding: 0px 7px 14px;
+}
+.detail .form-detail button{
+   font-size: 15px;
+   font-family: inherit;
+   font-weight: 600;
+   color: var(--whiteColor);
+   background-color: var(--mainColor);
+   border: none;
+   padding: 18px 35px;
+   border-radius: 5px;
+   box-shadow: 0 5px 28.5px 1.5px rgb(149 152 200 / 20%);
+   transition: all .5s ease;
+}
+.detail .form-detail button:hover{  
+   color: var(--whiteColor);
+   background-color: var(--optionalColor);  
+}
+/*=========================================*/
+.footer{
+    background-color: var(--blackColor);
+    margin-top: 40px;
+    padding: 80px 0 0;    
+}
+.footer .row{
+    flex-wrap: nowrap;
+}
+.footer .col-4{
+    padding: 0 12px;
+}
+.footer .footer-title{
+    position: relative;
+}
+.footer .footer-title h2{
+    padding-bottom: 8px;
+    border-bottom: 1px solid #4e5e6a;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--whiteColor);
+}
+.footer .footer-title h2::before{
+    top: 38px;   
+    left: 0;
+    width: 55px;
+    height: 1px;
+    background-color: var(--whiteColor);
+    content: "";
+    position: absolute;
+}
+.footer .contact-information{
+    display: flex;
+    padding-top: 35px;
+}
+.footer ul{
+    list-style: none;
+    margin-left: -40px;    
+}
+.footer .zz li{
+    padding-bottom: 40px;
+    line-height: 1.9;
+}
+.footer .xx li{
+    padding-left: 20px;
+    line-height: 1.9;
+}
+.footer .footer-title i{
+    font-size: 35px;
+    color: var(--optionalColor);
+}
+.footer .footer-title span{
+    font-size: 13px;
+    color: var(--whiteColor);
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    line-height: 20px;   
+}
+.footer .footer-title .hmn{
+    font-size: 22px;
+    color: var(--whiteColor);
+    display: inline-block;
+    text-transform: lowercase;
+    margin-bottom: 25px;
+    display: block;
+    line-height: 30px;
+    transition: all 0.5s;
+}
+.footer .footer-title .hmn:hover{
+    color: var(--optionalColor);
+}
+.footer .footer-title .hmn i{
+    font-size: 17px;
+    padding-right: 10px;
+    color: var(--whiteColor);
+    transition: all 0.5s;
+}
+.footer .footer-title .hmn i:hover{
+    color: var(--optionalColor);
+}
+.footer .links{
+    display: flex;
+    padding-top: 35px;
+}
+.footer .links li{
+    padding-bottom: 15px;
+}
+.footer .links ul{
+    width: 100%;
+}
+.footer .links span{
+    font-size: 16px;
+    color: var(--whiteColor);
+    transition: all 0.5s;
+}
+.footer .links span:hover{
+    color: var(--optionalColor);
+}
+.footer .instagram{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 35px 0 0 ;
+}
+.footer .instagram img{
+    width: 100%;
+}
+.footer .instagram .col-4{
+    padding: 0 5px 5px;
+}
+.footer-line{
+    border-top: 1px solid #4e5e6a;
+    margin-top: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+}
+.footer .footer-line span{
+    font-size: 16px;
+    color: var(--whiteColor);
+}
+.footer .footer-line .env{
+    font-size: 16px;
+    color: var(--whiteColor);
+    transition: all 0.5s;
+}
+.footer .footer-line .env:hover{
+    color: var(--optionalColor);
+}
+.footer .footer-line ul{
+    width: 100%;
+}
+.footer .footer-line .term{
+    text-align: end;    
+    color: var(--whiteColor);
+}
+.footer .footer-line .term span{
+    text-align: end;
+    transition: all 0.5s;
+    color: var(--whiteColor);
+}
+.footer .footer-line .term span:hover{
+    color: var(--optionalColor);
+}
+/*=======================================*/
+.top {
+    z-index: 999;
+    color: var(--whiteColor);
+    background-color: var(--blackColor);
+    border-radius: 100%;
+    padding: 10px;
+    font-size: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;    
+    box-shadow: 0 5px 5px -3px #0003, 0 8px 10px 1px #00000024, 0 3px 14px 2px #0000001f;
+    
+}
